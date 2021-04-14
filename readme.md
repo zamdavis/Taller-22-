@@ -62,7 +62,7 @@ const btn = document.querySelector('button');
 ```
 8. Bajo la nueva constante, asigne la función al evento *onclick* del botón.
 ```javascript
-btn.onclick = displayMessage();
+btn.onclick = displayMessage;
 ```
 9. Observe el avance hasta ahora.
 10. Para hacer más dinámico el ejemplo, agregue parámetros a la función.
